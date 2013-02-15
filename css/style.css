@@ -1,0 +1,283 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Arial", sans-serif;
+    font-size: 16pt;
+
+
+}
+
+.h2{
+    font-family: 'Iceland', cursive;
+    font-size: 26pt;
+    text-align: center;
+}
+
+.h1{
+    font-family: 'Cardo', serif;
+    font-size: 20pt;
+}
+
+.head {
+    height:500px;
+   /*  background: url("silvergradient2.gif");*/
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+/* #FFD630*/ /* #CC6600*/
+
+.title {
+
+     position: absolute;
+     height:150px ;
+     width: 480px;
+     margin-left: 125px;
+     margin-top: 20px;
+
+ }
+.main_content {
+
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    padding-left: 130px;
+    padding-top: 250px;
+    text-align: right;
+    }
+
+
+.main_img {
+
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    margin-top: 180px;
+    background: url("../Images/bubble-alarm-clock-red.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.items {
+
+
+    position: absolute;
+    height: 700px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px;
+    border-color: #000000;
+    background: url("../Images/TagGrayGradientDarkWtihSeparator.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.para{
+
+    text-align: center;
+
+}
+
+.items ul {
+
+    display: table;
+    border-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+
+
+
+
+}
+
+
+
+.listfooter{
+      
+           background: url("../Images/ReadMorePicture.png");
+           background-size: contain;
+           background-repeat: no-repeat;
+           background-position: bottom center;
+           height: 75px;
+           width: 100px;
+}
+
+.listimage{
+    background: url("../Images/CircularTeamIconImage.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 147px;
+    width: auto;
+
+}
+
+.listimage2{
+    background: url("../Images/AnalysisCircularIconWhiteAndGray.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 147px;
+    width: auto;
+
+}
+
+.brackets li{
+
+
+    display: inline-block;
+    /*background: url("watch5.jpg");*/
+    background-position: center top;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+    margin:0 auto;
+    vertical-align: top;
+    zoom: 1;
+    *display:inline;
+    overflow: hidden;
+    font-size: 12pt;
+
+}
+
+ .footer{
+
+    margin-top: 800px;
+    height: 200px;
+    background-color: #333;
+}
+/*
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+
+}
+*/
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#slideshow {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    margin-top: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#imgposition{
+    position: absolute;
+    background: url("../Images/bubble-alarm-clock-red.jpg");
+    height: 280px;
+    width: 480px;
+    margin-left: 670px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#paraposition{
+
+    position: absolute;
+    text-align: right;
+    height: 200px;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 70px;
+    overflow: hidden;
+
+}
+
+#paraposition2{
+
+    position: absolute;
+    text-align: right;
+    height: 200px;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+#imgposition2{
+    position: absolute;
+    background: url("../Images/red-phone1.jpg");
+    height: 280px;
+    width: 480px;
+    margin-left: 670px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#paraposition3{
+
+    position: absolute;
+    text-align: right;
+    height: 200px;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+#imgposition3{
+    position: absolute;
+    background: url("../Images/red-graph1.jpg");
+    height: 280px;
+    width: 480px;
+    margin-left: 670px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
+
+
+
+
+
+
+
+
+

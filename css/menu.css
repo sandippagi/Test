@@ -1,0 +1,9 @@
+#nm{
+   position: relative;
+   display: inline-block;
+   background-color: #ffffff;
+   color: #000000;
+   height: 90px;
+   width: 500px;
+    padding: 15px;
+}

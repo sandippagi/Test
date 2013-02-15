@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link rel="stylesheet" type="text/css" href="css/revamp.css">
+    <link rel="stylesheet" type="text/css" href="css/gerymenu.css">
+    <link rel="stylesheet" type="text/css" href="menu2.css">
+    <!--link rel="stylesheet" type="text/css" href="css/animated-menu.css"/-->
+    <link rel="stylesheet" type="text/css" href="css/nivo-slider.css"/>
+    <link rel="stylesheet" type="text/css" href="default/default.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <!--script src="JS/jquery.easing.1.3.js" type="text/javascript"></script-->
+    <script src="JS/animated-menu.js" type="text/javascript"></script>
+    <script src="JS/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script src="JS/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+
+
+    <title>TAG Solutions</title>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+                slices: 15, // For slice animations
+                boxCols: 8, // For box animations
+                boxRows: 4, // For box animations
+                animSpeed: 500, // Slide transition speed
+                pauseTime: 3000, // How long each slide will show
+                startSlide: 0, // Set starting Slide (0 index)
+                directionNav: true, // Next & Prev navigation
+                controlNav: true, // 1,2,3... navigation
+                controlNavThumbs: false, // Use thumbnails for Control Nav
+                pauseOnHover: true, // Stop animation while hovering
+                manualAdvance: false, // Force manual transitions
+                prevText: 'Prev', // Prev directionNav text
+                nextText: 'Next', // Next directionNav text
+                randomStart: false, // Start on a random slide
+                beforeChange: function(){}, // Triggers before a slide transition
+                afterChange: function(){}, // Triggers after a slide transition
+                slideshowEnd: function(){}, // Triggers after all slides have been shown
+                lastSlide: function(){}, // Triggers when last slide is shown
+                afterLoad: function(){} // Triggers when slider has loaded
+            });
+        });
+
+
+    </script>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</head>
+<body>
+
+<div class="wrapper">
+
+
+    <div class="navmenu">
+
+        <div class="logo">
+
+            <div class="righttop">
+
+                <p class="righttopmail">
+                    <a href="index.html">Home</a>
+                    &nbsp&nbsp&nbsp&nbsp <a href="contactus.html">Contact Us</a>
+                    <br> Email: info@tagin.in </br>
+                    Tel No: +91 20 26630223 </p>
+                <a href="#"><img class="fbicon" src="Images/fbshadow.png" width="50" height="50"></a>
+                <a href="#"><img class="fbicon" src="Images/linkedin_64.png" width="50" height="50"></a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="menuwrap">
+
+        <div class="example">
+            <ol id="nav">
+                <li class="menu_home"><a href="index.html">Home</a></li>
+                <li><a class="menu_about" href="#">About Us</a></li>
+                <li><a class="menu_services" href="#">Services</a>
+                    <ul class="dd">
+                        <li><a href="development.html">Development</a></li>
+                        <li><a href="Testing.html">Testing</a></li>
+                        <li><a href="hrpage.html">HR services</a></li>
+                    </ul>
+                </li>
+                <li class="menu_last"><a  href="contactus.html">Contact Us</a></li>
+            </ol>
+        </div>
+
+    </div>
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <img src="Images/SoftwareDevelopment%20Changed.jpg" alt="" />
+            <a href="#"><img src="Images/Cost%20reduction%20Changed.jpg" alt=""  /></a>
+            <img src="Images/Technology-partner%20Changed.jpg" alt="" />
+            <img src="Images/SoftwareDevelopment1%20Changed.jpg" alt="" />
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+
+
+
+
+    <div class="testingpage">
+
+        <ol class="list_testingpage">
+            <li class="functionaltesting"><h3 class="head_testingpage">Functional Testing</h3><br/>
+                Function testing covers the different testing like, Regression Testing, Installation testing, accessibility testing. Database testing, security, Back-End Testing, Usability and User Interface Testing, Internationalization and local testing, API testing and testing of user interface. Aim of the functionality testing is to verify all the requirements and specification of the software. It also involves verification of different error conditions. Our QA team will work with your QA and development team to perform the testing and QA work. We can take over the tasks which your team does not have time and resources for. We can do complete outsource of QA work and our team will work closely with the onsite team. We guarantee the quality work.
+            </li>
+
+            <li class="manualtestingbox" ><h3 class="head_testingpage">Manual Testing</h3> <br/>
+                Manual Testing is really important part of new feature or requirement release. It covers all the functional validations against normal range of values or erroneous input data.
+            </li>
+
+            <li class="blackboxtesting"><h3 class="head_testingpage">Black Box Testing</h3><br/>
+                Black Box testing is a method that involves the examination of Functionality of an application without looking into its internal structure.
+            </li>
+
+            <li class="whiteboxtesting"><h3 class="head_testingpage">White Box Testing</h3><br/>
+                White Box Testing is a method of testing software that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing).
+            </li>
+
+            <li class="regressiontesting"><h3 class="head_testingpage">Regression Testing</h3><br/>
+
+                With the frequent release and new features/requirements we have software release happening quite frequently. Regression testing is any type of software testing that seeks to uncover new software bugs, or regressions, in existing functional and non-functional areas of a system after changes, such as enhancements, patches or configuration changes have been made to them. We will make sure that Regression Testing is performed for each release. We can perform Regression testing either manually or we can do Automation.
+
+            </li>
+
+            <li class="componenttesting" a><h3 class="head_testingpage">Component Testing</h3><br/>
+
+                 Component testing involves testing of individual components of the software. It helps to detect the issues/bugs in the early phase of SDLC. It helps in saving the amount and cost. Our team works closely with the development team and Business people to perform effective Component testing. We work with customer so that Component and Unit testing fits well with their development team and overall methodology and strategy using various open source and commercial tools. It is a verification of functionality of specific modules when certain stimulus is applied to the component's interface. A component could be an object, a collection of objects, or even a software module in cases of procedural systems. Verification is done by either validating state changes in response to those stimuli or validating effects elsewhere in a system.
+
+            </li>
+
+            <li class="usabilitytesting"><h3 class="head_testingpage">Usability/User Interface Testing</h3><br/>
+                 Usability testing involves how the end user will use the system. User Interface testing involves testing of Graphical User Interface. Our team has expertise doing the User Interface and Usability testing. UI testing is really important part of Web Based applications. It involves the Navigation, timeouts, erros and east of use of applications.
+
+            </li>
+
+            <li class="compatibiltytesting"><h3 class="head_testingpage">Compatibility Testing</h3><br/>
+
+                It involves the running of the application of different OS systems, hardware systems. It involves various elements like platforms, different hardware, Web Browsers, OS etc. It is really important to test the Web Based applications on different browsers like IE, Chrome, Firefox etc.. We have a infrastructure that can help perform Compatibility Testing.
+
+            </li>
+
+            <li class="automationtestingbox"><h3 class="head_testingpage">Automation Testing</h3><br/>
+                 Test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes to predicted outcomes.
+                <br/>Reduces  the efforts for Regression Testing, Increased productivity, Superior application quality, Multiple database testing, Multiple Browser Testing.
+                <br/>We have expertise in the different Automation tools which can help for the QA work.
+            </li>
+
+        </ol>
+
+    </div>
+
+
+    <div class="push">
+
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>TAG Solutions  (c) 2008 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email : info@tagin.in </p>
+</div>
+
+</body>
+</html>

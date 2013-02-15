@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background:#F3F3F3;
+    font-size: 18px;
+}
+
+ul{
+    width: 500px;
+    padding-left: 550px;
+    margin:0;
+
+}
+
+li{
+    width:100px;
+    height:50px;
+    float:left;
+    color: #f8f8ff;
+    text-align: center;
+
+}
+
+a{
+    color:#f8f8ff;
+    text-decoration:none;
+}
+
+p{
+    padding:15px 5px;
+}
+
+.subtext{
+    padding-top: 30px;
+}
+
+.subtext2{
+    padding-top: 0px;
+}
+
+/*Menu Color Classes*/
+.green{background:#4487BE url('../Images/blue-item-bg1.jpg') top left no-repeat;}
+.yellow{background:#4487BE url('../Images/blue-item-bg1.jpg') top left no-repeat;}
+.red{background:#4487BE url('../Images/blue-item-bg1.jpg') top left no-repeat;}
+.purple{background:#4487BE url('../Images/blue-item-bg1.jpg') top left no-repeat;}
+.blue{background:#4487BE url('../Images/blue-item-bg1.jpg') top left no-repeat;}
